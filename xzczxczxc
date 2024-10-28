@@ -1,0 +1,26 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Spectra Hub",
+   LoadingTitle = "Spectra Hub",
+   LoadingSubtitle = "made with <3 by liquidxen",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, 
+      FileName = "SpectraHub"
+   },
+ 
+   KeySystem = true, 
+   KeySettings = {
+      Title = "Spectra Hub | Key",
+      Subtitle = "discord",
+      Note = "The only place you could get our key is in our DISCORD, anywhere else is a scam!",
+      FileName = "Eg3ZONnMIr82lmOyWVzxU2Aef56YnBxGz2Fd", 
+      SaveKey = false, 
+      GrabKeyFromSite = true, 
+      Key = {"https://pastebin.com/2avx35QA"} 
+   }
+})
+
+local Tab = Window:CreateTab("🔙 ROLLBACK") -- Title, Image
+local Section = Tab:CreateSection("Section Example")
